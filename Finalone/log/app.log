@@ -1,0 +1,3 @@
+2020-04-12 00:03:49.732 DEBUG [main] [automation.stepdefinition.vr_tc01] [the_user_launch_the_application_in_the_browser] [automation.stepdefinition.vr_tc01.the_user_launch_the_application_in_the_browser(vr_tc01.java:30)] - browser will be opened 
+2020-04-12 00:04:15.394 INFO [main] [automation.stepdefinition.vr_tc01] [the_user_launch_the_application_in_the_browser] [automation.stepdefinition.vr_tc01.the_user_launch_the_application_in_the_browser(vr_tc01.java:32)] - browser is opened successfully
+2020-04-12 00:04:15.785 DEBUG [main] [automation.stepdefinition.vr_tc01] [the_user_open_My_Accounts_Page] [automation.stepdefinition.vr_tc01.the_user_open_My_Accounts_Page(vr_tc01.java:38)] - My accoun will be opened

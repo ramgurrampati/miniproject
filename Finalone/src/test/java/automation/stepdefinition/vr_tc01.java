@@ -1,7 +1,7 @@
 package automation.stepdefinition;
-import org.apache.log4j.BasicConfigurator;
-import org.apache.log4j.Logger;
-import org.openqa.selenium.WebDriver;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
 import automation.pages.RegisterPage;
 //import automation.testrunner.testng;
@@ -10,13 +10,15 @@ import Baseclass.ReadandWriteExcel;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.apache.logging.log4j.LogManager;
+
+
 
 
 public class vr_tc01 extends Baseclasss {
 	static RegisterPage rpom;
 	static String[] data = null;
-	final static Logger log = Logger.getLogger( vr_tc01.class.getName());
+	//final static Logger log = Logger.getLogger(vr_tc01.class.getName());
+	final static Logger log = LogManager.getLogger(vr_tc01.class);
 	/*public  vr_tc01(WebDriver driver)
 	{
 		this.driver=driver;
@@ -57,7 +59,7 @@ public class vr_tc01 extends Baseclasss {
 	public void click_on_the_Register_button() throws Throwable {
 		 rpom =PageFactory.initElements(driver, RegisterPage.class);
 		rpom.register();
-		Baseclasss.logger("registration is done ");
+		
 		Thread.sleep(5000);
 		
 	    

@@ -55,35 +55,35 @@ formatter.match({
   "location": "vr_tc01.the_user_launch_the_application_in_the_browser()"
 });
 formatter.result({
-  "duration": 18732517600,
+  "duration": 27538888400,
   "status": "passed"
 });
 formatter.match({
   "location": "vr_tc01.the_user_open_My_Accounts_Page()"
 });
 formatter.result({
-  "duration": 1155447000,
+  "duration": 1748267600,
   "status": "passed"
 });
 formatter.match({
   "location": "vr_tc01.the_user_fills_valid_username_and_Password()"
 });
 formatter.result({
-  "duration": 4067583100,
+  "duration": 16761365900,
   "status": "passed"
 });
 formatter.match({
   "location": "vr_tc01.click_on_the_Register_button()"
 });
 formatter.result({
-  "duration": 5150440900,
+  "duration": 9987660300,
   "status": "passed"
 });
 formatter.match({
   "location": "vr_tc01.i_validate_the_outcomes()"
 });
 formatter.result({
-  "duration": 1205940100,
+  "duration": 5516654000,
   "status": "passed"
 });
 });

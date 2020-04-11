@@ -4,8 +4,6 @@ package automation.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import Baseclass.Baseclasss;
-
 public class RegisterPage {
 	
 	@FindBy(xpath="/html/body/div[1]/div[1]/header/div[2]/nav/ul/li[2]/a")

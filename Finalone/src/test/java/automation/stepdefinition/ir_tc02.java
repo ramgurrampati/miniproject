@@ -53,7 +53,7 @@ public class ir_tc02 extends Baseclasss{
 			System.out.println("pass");
 		else
 			System.out.println("fail");
-		Baseclasss.logger("error in registrating");
+		
 		Thread.sleep(5000);
 		
 	    screenShot("src\\test\\resources\\screenshots\\InvalidRegister.png");

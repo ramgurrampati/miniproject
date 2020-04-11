@@ -5,9 +5,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.commons.collections4.functors.ComparatorPredicate.Criterion;
 import org.apache.commons.io.FileUtils;
-import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -51,12 +49,7 @@ public class Baseclasss {
 		File Sshot=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(Sshot, new File(path));
 	}
-	public static Logger log;	
-	public static void logger(String msg)
-	{
-		log = Logger.getLogger(Baseclasss.class.getName());
-		log.info(msg);
-	}
+	
 	public void quit()
 	{
 		driver.close();
