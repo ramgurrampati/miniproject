@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		features = "src\\main\\resources\\features\\Myapp.Feature",
 		plugin= {"pretty","html:Reports\\cucumberHTMLReport","json:Reports\\cucumberHTMLReport\\jsonreport",
 		"com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:Reports\\ExtentReports\\extentreport.html"},
-tags = {"@TC_01"},
+
 		glue= {"automation.stepdefinition"},
 		
 	monochrome=true	
