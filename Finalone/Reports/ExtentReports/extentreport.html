@@ -45,7 +45,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Apr 12, 2020 12:03:46 AM</span>
+			<span class='label blue darken-3 suite-start-time'>Apr 12, 2020 12:35:07 AM</span>
 			</a>
 		</ul>
 	</div>
@@ -74,6 +74,12 @@
 				<ul id='category-toggle' class='dropdown-content'>
 					<li><a href='#'>@TestAutomation</a></li>
 					<li><a href='#'>@TC_01</a></li>
+					<li><a href='#'>@TC_02</a></li>
+					<li><a href='#'>@TC_03</a></li>
+					<li><a href='#'>@TC_04</a></li>
+					<li><a href='#'>@TC_05</a></li>
+					<li><a href='#'>@TC_06</a></li>
+					<li><a href='#'>@TC_07</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
 				</ul>
@@ -128,7 +134,7 @@
                     <canvas id='child-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> scenario(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>7</span> scenario(s) passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -142,7 +148,7 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>5</span> step(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>33</span> step(s) passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -166,7 +172,7 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Practice Automation Website</span>
-						<span class='test-time'>Apr 12, 2020 12:03:47 AM</span>
+						<span class='test-time'>Apr 12, 2020 12:35:08 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -180,7 +186,7 @@
     <div class='category-list'>
         <span class='category label'>@TC_01</span>
     </div>
-    <span class='duration right label'>0h 1m 1s+616ms</span>
+    <span class='duration right label'>0h 1m 24s+747ms</span>
     <div class="bdd-test">
         <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: Valid Register</div>
     </div>
@@ -203,6 +209,184 @@
         </li>
         <li test-id='7' class='node then pass' status='pass'>
             <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then I validate the outcomes</div>
+                <div class="node-step">passed</div>
+        </li>
+    </ul>
+</div>
+<div class='scenario node' test-id='8' status='pass'>
+    <div class='category-list'>
+        <span class='category label'>@TC_02</span>
+    </div>
+    <span class='duration right label'>0h 0m 34s+887ms</span>
+    <div class="bdd-test">
+        <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: Invalid Register</div>
+    </div>
+    <ul class='steps'>
+        <li test-id='9' class='node given pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given the user launches the application in the browser</div>
+                <div class="node-step">passed</div>
+        </li>
+        <li test-id='10' class='node when pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When the user clicks on My Accounts Page</div>
+                <div class="node-step">passed</div>
+        </li>
+        <li test-id='11' class='node then pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then the user fills Invalid username and Password</div>
+                <div class="node-step">passed</div>
+        </li>
+        <li test-id='12' class='node then pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then I validate the outcomes of invalid Register</div>
+                <div class="node-step">passed</div>
+        </li>
+    </ul>
+</div>
+<div class='scenario node' test-id='13' status='pass'>
+    <div class='category-list'>
+        <span class='category label'>@TC_03</span>
+    </div>
+    <span class='duration right label'>0h 0m 55s+143ms</span>
+    <div class="bdd-test">
+        <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: valid Login</div>
+    </div>
+    <ul class='steps'>
+        <li test-id='14' class='node given pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given the user launch the application in browser</div>
+                <div class="node-step">passed</div>
+        </li>
+        <li test-id='15' class='node when pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When the user clicks on My Accounts</div>
+                <div class="node-step">passed</div>
+        </li>
+        <li test-id='16' class='node when pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When the user Enters the valid username and password</div>
+                <div class="node-step">passed</div>
+        </li>
+        <li test-id='17' class='node and pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on signin button</div>
+                <div class="node-step">passed</div>
+        </li>
+        <li test-id='18' class='node then pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then I validate the outcomes of valid login</div>
+                <div class="node-step">passed</div>
+        </li>
+    </ul>
+</div>
+<div class='scenario node' test-id='19' status='pass'>
+    <div class='category-list'>
+        <span class='category label'>@TC_04</span>
+    </div>
+    <span class='duration right label'>0h 0m 45s+668ms</span>
+    <div class="bdd-test">
+        <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: Invalid Login</div>
+    </div>
+    <ul class='steps'>
+        <li test-id='20' class='node given pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given the user launch the app in browser</div>
+                <div class="node-step">passed</div>
+        </li>
+        <li test-id='21' class='node when pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When user clicks on My Accounts</div>
+                <div class="node-step">passed</div>
+        </li>
+        <li test-id='22' class='node when pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When the user Enters the Invalid username and password</div>
+                <div class="node-step">passed</div>
+        </li>
+        <li test-id='23' class='node and pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on the signin button</div>
+                <div class="node-step">passed</div>
+        </li>
+        <li test-id='24' class='node then pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then I validate the outcomes of invalid login</div>
+                <div class="node-step">passed</div>
+        </li>
+    </ul>
+</div>
+<div class='scenario node' test-id='25' status='pass'>
+    <div class='category-list'>
+        <span class='category label'>@TC_05</span>
+    </div>
+    <span class='duration right label'>0h 0m 47s+782ms</span>
+    <div class="bdd-test">
+        <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: Adding to Basket</div>
+    </div>
+    <ul class='steps'>
+        <li test-id='26' class='node given pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given user launches the application in the browser</div>
+                <div class="node-step">passed</div>
+        </li>
+        <li test-id='27' class='node when pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When the  user clicks on Shop</div>
+                <div class="node-step">passed</div>
+        </li>
+        <li test-id='28' class='node then pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then the user clicks on add to basket</div>
+                <div class="node-step">passed</div>
+        </li>
+        <li test-id='29' class='node and pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And user clicks items</div>
+                <div class="node-step">passed</div>
+        </li>
+        <li test-id='30' class='node then pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then I validate the outcomes of Adding to Basket</div>
+                <div class="node-step">passed</div>
+        </li>
+    </ul>
+</div>
+<div class='scenario node' test-id='31' status='pass'>
+    <div class='category-list'>
+        <span class='category label'>@TC_06</span>
+    </div>
+    <span class='duration right label'>0h 0m 49s+428ms</span>
+    <div class="bdd-test">
+        <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: Read more about a book</div>
+    </div>
+    <ul class='steps'>
+        <li test-id='32' class='node given pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given the user launches the app in browser</div>
+                <div class="node-step">passed</div>
+        </li>
+        <li test-id='33' class='node when pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When user clicks on Shop</div>
+                <div class="node-step">passed</div>
+        </li>
+        <li test-id='34' class='node then pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then user clicks Read more</div>
+                <div class="node-step">passed</div>
+        </li>
+        <li test-id='35' class='node then pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then I validate the outcomes of Read more</div>
+                <div class="node-step">passed</div>
+        </li>
+    </ul>
+</div>
+<div class='scenario node' test-id='36' status='pass'>
+    <div class='category-list'>
+        <span class='category label'>@TC_07</span>
+    </div>
+    <span class='duration right label'>0h 0m 51s+543ms</span>
+    <div class="bdd-test">
+        <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: To Retrive any data from Cruises table</div>
+    </div>
+    <ul class='steps'>
+        <li test-id='37' class='node given pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given the user launches the application in browser</div>
+                <div class="node-step">passed</div>
+        </li>
+        <li test-id='38' class='node then pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then click DemoSite</div>
+                <div class="node-step">passed</div>
+        </li>
+        <li test-id='39' class='node then pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then user fills all the details</div>
+                <div class="node-step">passed</div>
+        </li>
+        <li test-id='40' class='node and pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And Clicks Register button</div>
+                <div class="node-step">passed</div>
+        </li>
+        <li test-id='41' class='node then pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then I validate the results</div>
                 <div class="node-step">passed</div>
         </li>
     </ul>
@@ -271,7 +455,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Apr 12, 2020 12:03:47 AM</td>
+										<td>Apr 12, 2020 12:35:08 AM</td>
 										<td class='linked' test-id='1'>Practice Automation Website</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
@@ -304,8 +488,206 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Apr 12, 2020 12:03:47 AM</td>
+										<td>Apr 12, 2020 12:35:08 AM</td>
 										<td class='linked' test-id='2'>Practice Automation Website.Valid Register</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@TC_02</span>
+						<span class='category-status right'>
+						<span class='label pass'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
+							
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Apr 12, 2020 12:36:33 AM</td>
+										<td class='linked' test-id='8'>Practice Automation Website.Invalid Register</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@TC_03</span>
+						<span class='category-status right'>
+						<span class='label pass'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
+							
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Apr 12, 2020 12:37:08 AM</td>
+										<td class='linked' test-id='13'>Practice Automation Website.valid Login</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@TC_04</span>
+						<span class='category-status right'>
+						<span class='label pass'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
+							
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Apr 12, 2020 12:38:03 AM</td>
+										<td class='linked' test-id='19'>Practice Automation Website.Invalid Login</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@TC_05</span>
+						<span class='category-status right'>
+						<span class='label pass'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
+							
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Apr 12, 2020 12:38:49 AM</td>
+										<td class='linked' test-id='25'>Practice Automation Website.Adding to Basket</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@TC_06</span>
+						<span class='category-status right'>
+						<span class='label pass'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
+							
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Apr 12, 2020 12:39:36 AM</td>
+										<td class='linked' test-id='31'>Practice Automation Website.Read more about a book</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@TC_07</span>
+						<span class='category-status right'>
+						<span class='label pass'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
+							
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Apr 12, 2020 12:40:26 AM</td>
+										<td class='linked' test-id='36'>Practice Automation Website.To Retrive any data from Cruises table</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -336,31 +718,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>1</div>
+					<div class='panel-lead'>7</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>5</div>
+					<div class='panel-lead'>33</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Apr 12, 2020 12:03:46 AM</div>
+					<div class='panel-lead'>Apr 12, 2020 12:35:07 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Apr 12, 2020 12:04:49 AM</div>
+			 		<div class='panel-lead'>Apr 12, 2020 12:41:18 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 1m 2s+836ms</div>
+					<div class='panel-lead'>0h 6m 10s+196ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -393,6 +775,60 @@
 									100%
 							</td>
 						</tr>
+						<tr>
+							<td>@TC_02</td>
+							<td>1</td>
+							<td>0</td>
+							<td>0</td>
+							<td>
+									100%
+							</td>
+						</tr>
+						<tr>
+							<td>@TC_03</td>
+							<td>1</td>
+							<td>0</td>
+							<td>0</td>
+							<td>
+									100%
+							</td>
+						</tr>
+						<tr>
+							<td>@TC_04</td>
+							<td>1</td>
+							<td>0</td>
+							<td>0</td>
+							<td>
+									100%
+							</td>
+						</tr>
+						<tr>
+							<td>@TC_05</td>
+							<td>1</td>
+							<td>0</td>
+							<td>0</td>
+							<td>
+									100%
+							</td>
+						</tr>
+						<tr>
+							<td>@TC_06</td>
+							<td>1</td>
+							<td>0</td>
+							<td>0</td>
+							<td>
+									100%
+							</td>
+						</tr>
+						<tr>
+							<td>@TC_07</td>
+							<td>1</td>
+							<td>0</td>
+							<td>0</td>
+							<td>
+									100%
+							</td>
+						</tr>
 					</table>
 				</div>
 			</div>
@@ -412,8 +848,8 @@
 				warningParent: 0,
 				skipParent: 0,
 				exceptionsParent: 0,
-				childCount: 1,
-				passChild: 1,
+				childCount: 7,
+				passChild: 7,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
@@ -422,8 +858,8 @@
 				infoChild: 0,
 				debugChild: 0,
 				exceptionsChild: 0,
-				grandChildCount: 5,
-				passGrandChild: 5,
+				grandChildCount: 33,
+				passGrandChild: 33,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
@@ -436,7 +872,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "Practice Automation Website":61.616
+			        "Practice Automation Website":369.235
 			};
 		</script>
 		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/js/extent.js' type='text/javascript'></script>

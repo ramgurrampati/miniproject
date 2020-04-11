@@ -1,13 +1,13 @@
 package automation.stepdefinition;
 
 
-import org.openqa.selenium.WebDriver;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
 
-
-import automation.pages.RegisterPage;
 import Baseclass.Baseclasss;
 import Baseclass.ReadandWriteExcel;
+import automation.pages.RegisterPage;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -16,12 +16,11 @@ public class ir_tc02 extends Baseclasss{
 	
 	static RegisterPage rpom;
 	static String[] data = null;
-	/*public  ir_tc02(WebDriver driver)
-	
-		this.driver=driver;
-			}*/
+	final static Logger log = LogManager.getLogger(ir_tc02.class);
+
 	@Given("^the user launches the application in the browser$")
 	public void the_user_launches_the_application_in_the_browser() throws Throwable {
+		log.debug("browser will be opened ");
 		launchBrowser("chrome", "http://practice.automationtesting.in");
 	}
 
@@ -58,6 +57,7 @@ public class ir_tc02 extends Baseclasss{
 		
 	    screenShot("src\\test\\resources\\screenshots\\InvalidRegister.png");
 		quit();
+		log.info("browser is closed");
 	   
 	}
 

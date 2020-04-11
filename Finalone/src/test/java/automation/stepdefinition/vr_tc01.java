@@ -4,7 +4,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
 import automation.pages.RegisterPage;
-//import automation.testrunner.testng;
 import Baseclass.Baseclasss;
 import Baseclass.ReadandWriteExcel;
 import cucumber.api.java.en.Given;
@@ -17,12 +16,9 @@ import cucumber.api.java.en.When;
 public class vr_tc01 extends Baseclasss {
 	static RegisterPage rpom;
 	static String[] data = null;
-	//final static Logger log = Logger.getLogger(vr_tc01.class.getName());
+
 	final static Logger log = LogManager.getLogger(vr_tc01.class);
-	/*public  vr_tc01(WebDriver driver)
-	{
-		this.driver=driver;
-			}*/
+	
 	
 	@Given("^the user launch the application in the browser$")
 	public void the_user_launch_the_application_in_the_browser() throws Throwable {
@@ -35,7 +31,7 @@ public class vr_tc01 extends Baseclasss {
 	@When("^the user open My Accounts Page$")
 	public void the_user_open_My_Accounts_Page() throws Throwable {
 	   rpom =PageFactory.initElements(driver, RegisterPage.class);
-	   log.debug("My accoun will be opened");
+	   
 	   rpom.account();
 	  
 	}
@@ -79,6 +75,7 @@ public class vr_tc01 extends Baseclasss {
 	    screenShot("src\\test\\resources\\screenshots\\ValidRegister_TC_01.png");
 	    
 		quit();
+		log.info("browser is closed");
 	}
 
 

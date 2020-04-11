@@ -1,26 +1,24 @@
 package automation.stepdefinition;
 
 
-import org.openqa.selenium.WebDriver;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
-
-import automation.pages.DemoSitePage;
 
 import Baseclass.Baseclasss;
 import Baseclass.ReadandWriteExcel;
+import automation.pages.DemoSitePage;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
 public class DemoTc_07 extends Baseclasss {
 	static DemoSitePage dpom;
 	static String[] data = null;
-	/*public DemoTc_07(WebDriver driver)
-	{
-		this.driver=driver;
-			}*/
-	
+	final static Logger log = LogManager.getLogger(DemoTc_07.class);
+
 	@Given("^the user launches the application in browser$")
 	public void the_user_launches_the_application_in_browser() throws Throwable {
+		log.debug("browser will be opened ");
 		launchBrowser("chrome", "http://practice.automationtesting.in");
 	}
 
@@ -62,6 +60,7 @@ public class DemoTc_07 extends Baseclasss {
 		
 	    screenShot("src\\test\\resources\\ScreenShots\\demo.png");
 		quit();
+		log.info("browser is closed");
 	    
 	}
 }

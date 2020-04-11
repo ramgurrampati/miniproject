@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 27538888400,
+              "duration": 51024903000,
               "status": "passed"
             },
             "line": 6,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 1748267600,
+              "duration": 7088874600,
               "status": "passed"
             },
             "line": 7,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 16761365900,
+              "duration": 14110919400,
               "status": "passed"
             },
             "line": 8,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 9987660300,
+              "duration": 10319193500,
               "status": "passed"
             },
             "line": 9,
@@ -60,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 5516654000,
+              "duration": 2115065500,
               "status": "passed"
             },
             "line": 10,
@@ -75,6 +75,438 @@
           {
             "line": 4,
             "name": "@TC_01"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Invalid Register",
+        "description": "",
+        "id": "practice-automation-website;invalid-register",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20340497200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user launches the application in the browser",
+            "match": {
+              "location": "ir_tc02.the_user_launches_the_application_in_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1320763200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user clicks on My Accounts Page",
+            "match": {
+              "location": "ir_tc02.the_user_clicks_on_My_Accounts_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5776695500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user fills Invalid username and Password",
+            "match": {
+              "location": "ir_tc02.the_user_fills_Invalid_username_and_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7430421100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I validate the outcomes of invalid Register",
+            "match": {
+              "location": "ir_tc02.i_validate_the_outcomes_of_invalid_Register()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@TC_02"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "valid Login",
+        "description": "",
+        "id": "practice-automation-website;valid-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24000622800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user launch the application in browser",
+            "match": {
+              "location": "vl_tc03.the_user_launch_the_application_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1599728500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user clicks on My Accounts",
+            "match": {
+              "location": "vl_tc03.the_user_clicks_on_My_Accounts()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7488336700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user Enters the valid username and password",
+            "match": {
+              "location": "vl_tc03.the_user_Enters_the_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11920052500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click on signin button",
+            "match": {
+              "location": "vl_tc03.click_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10110896200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I validate the outcomes of valid login",
+            "match": {
+              "location": "vl_tc03.i_validate_the_outcomes_of_valid_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@TC_03"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Invalid Login",
+        "description": "",
+        "id": "practice-automation-website;invalid-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20178515200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user launch the app in browser",
+            "match": {
+              "location": "il_tc04.the_user_launch_the_app_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1268258900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user clicks on My Accounts",
+            "match": {
+              "location": "il_tc04.user_clicks_on_My_Accounts()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4586320100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user Enters the Invalid username and password",
+            "match": {
+              "location": "il_tc04.the_user_Enters_the_Invalid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1817796500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "click on the signin button",
+            "match": {
+              "location": "il_tc04.click_on_the_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17792340700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I validate the outcomes of invalid login",
+            "match": {
+              "location": "il_tc04.i_validate_the_outcomes_of_invalid_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@TC_04"
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "Adding to Basket",
+        "description": "",
+        "id": "practice-automation-website;adding-to-basket",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21953719800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user launches the application in the browser",
+            "match": {
+              "location": "addcartTC_05.user_launches_the_application_in_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1636301000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "the  user clicks on Shop",
+            "match": {
+              "location": "addcartTC_05.the_user_clicks_on_Shop()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11209786800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the user clicks on add to basket",
+            "match": {
+              "location": "addcartTC_05.the_user_clicks_on_add_to_basket()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6838969600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user clicks items",
+            "match": {
+              "location": "addcartTC_05.user_clicks_items()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6124579200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I validate the outcomes of Adding to Basket",
+            "match": {
+              "location": "addcartTC_05.I_validate_the_outcomes_of_Adding_to_Basket()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 35,
+            "name": "@TC_05"
+          }
+        ]
+      },
+      {
+        "line": 44,
+        "name": "Read more about a book",
+        "description": "",
+        "id": "practice-automation-website;read-more-about-a-book",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21602650800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the user launches the app in browser",
+            "match": {
+              "location": "ReadmoreTc_06.the_user_launches_the_app_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1282285800,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user clicks on Shop",
+            "match": {
+              "location": "ReadmoreTc_06.user_clicks_on_Shop()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16161386400,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user clicks Read more",
+            "match": {
+              "location": "ReadmoreTc_06.user_clicks_Read_more()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10375591100,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I validate the outcomes of Read more",
+            "match": {
+              "location": "ReadmoreTc_06.i_validate_the_outcomes_of_Read_more()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@TC_06"
+          }
+        ]
+      },
+      {
+        "line": 51,
+        "name": "To Retrive any data from Cruises table",
+        "description": "",
+        "id": "practice-automation-website;to-retrive-any-data-from-cruises-table",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19553266900,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the user launches the application in browser",
+            "match": {
+              "location": "DemoTc_07.the_user_launches_the_application_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1677601500,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "click DemoSite",
+            "match": {
+              "location": "DemoTc_07.click_DemoSite()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12962548100,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user fills all the details",
+            "match": {
+              "location": "DemoTc_07.user_fills_all_the_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5277727700,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Clicks Register button",
+            "match": {
+              "location": "DemoTc_07.clicks_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12047985300,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I validate the results",
+            "match": {
+              "location": "DemoTc_07.i_validate_the_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 50,
+            "name": "@TC_07"
           }
         ]
       }

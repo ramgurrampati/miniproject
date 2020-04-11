@@ -1,12 +1,13 @@
 package automation.stepdefinition;
 
 
-import org.openqa.selenium.WebDriver;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
 
-import automation.pages.LoginPage;
 import Baseclass.Baseclasss;
 import Baseclass.ReadandWriteExcel;
+import automation.pages.LoginPage;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -14,13 +15,12 @@ import cucumber.api.java.en.When;
 public class il_tc04  extends Baseclasss{
 	static LoginPage lpom;
 	static String[] data = null;
-	/*public  il_tc04(WebDriver driver)
-	{
-		this.driver=driver;
-			}*/
+	final static Logger log = LogManager.getLogger(il_tc04.class);
+
 	
 	@Given("^the user launch the app in browser$")
 	public void the_user_launch_the_app_in_browser() throws Throwable {
+		log.debug("browser will be opened ");
 		launchBrowser("chrome", "http://practice.automationtesting.in");
 	}
 
@@ -62,6 +62,7 @@ public class il_tc04  extends Baseclasss{
 		
 	    screenShot("src\\test\\resources\\screenshots\\invalidLogin.png");
 		quit();
+		log.info("browser is closed");
 	}
 
 }
