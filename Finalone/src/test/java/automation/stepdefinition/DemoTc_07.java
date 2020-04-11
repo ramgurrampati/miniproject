@@ -1,6 +1,7 @@
 package automation.stepdefinition;
 
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 import automation.pages.DemoSitePage;
@@ -13,6 +14,10 @@ import cucumber.api.java.en.Then;
 public class DemoTc_07 extends Baseclasss {
 	static DemoSitePage dpom;
 	static String[] data = null;
+	/*public DemoTc_07(WebDriver driver)
+	{
+		this.driver=driver;
+			}*/
 	
 	@Given("^the user launches the application in browser$")
 	public void the_user_launches_the_application_in_browser() throws Throwable {

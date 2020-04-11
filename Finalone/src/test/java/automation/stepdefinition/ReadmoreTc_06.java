@@ -1,6 +1,7 @@
 package automation.stepdefinition;
 
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 import Baseclass.Baseclasss;
@@ -12,6 +13,11 @@ import cucumber.api.java.en.When;
 public class ReadmoreTc_06 extends Baseclasss{
 	static Readmore lpom;
 	static String[] data = null;
+	/* public  ReadmoreTc_06(WebDriver driver)
+	{
+		this.driver=driver;
+			
+			}*/
 	@Given("^the user launches the app in browser$")
 	public void the_user_launches_the_app_in_browser() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions

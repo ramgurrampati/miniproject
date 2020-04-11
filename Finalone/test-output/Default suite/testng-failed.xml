@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.stepdefinition.vr_tc01">
+      <class name="automation.testrunner.testng">
         <methods>
-          <include name="click_on_the_Register_button"/>
-          <include name="i_validate_the_outcomes"/>
-          <include name="the_user_fills_valid_username_and_Password"/>
-          <include name="the_user_launch_the_application_in_the_browser"/>
-          <include name="the_user_open_My_Accounts_Page"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="addtoart"/>
         </methods>
-      </class> <!-- automation.stepdefinition.vr_tc01 -->
+      </class> <!-- automation.testrunner.testng -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

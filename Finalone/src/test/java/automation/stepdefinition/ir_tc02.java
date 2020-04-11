@@ -1,6 +1,7 @@
 package automation.stepdefinition;
 
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 
@@ -15,6 +16,10 @@ public class ir_tc02 extends Baseclasss{
 	
 	static RegisterPage rpom;
 	static String[] data = null;
+	/*public  ir_tc02(WebDriver driver)
+	
+		this.driver=driver;
+			}*/
 	@Given("^the user launches the application in the browser$")
 	public void the_user_launches_the_application_in_the_browser() throws Throwable {
 		launchBrowser("chrome", "http://practice.automationtesting.in");
@@ -48,6 +53,7 @@ public class ir_tc02 extends Baseclasss{
 			System.out.println("pass");
 		else
 			System.out.println("fail");
+		Baseclasss.logger("error in registrating");
 		Thread.sleep(5000);
 		
 	    screenShot("src\\test\\resources\\screenshots\\InvalidRegister.png");

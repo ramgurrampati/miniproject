@@ -1,6 +1,7 @@
 package automation.stepdefinition;
 
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 import automation.pages.LoginPage;
@@ -14,6 +15,10 @@ import cucumber.api.java.en.When;
 public class vl_tc03  extends Baseclasss {
 	static LoginPage lpom;
 	static String[] data = null;
+	/*public vl_tc03(WebDriver driver)
+	{
+		this.driver=driver;
+			}*/
 	@Given("^the user launch the application in browser$")
 	public void the_user_launch_the_application_in_browser() throws Throwable {
 		launchBrowser("chrome", "http://practice.automationtesting.in");
@@ -55,6 +60,8 @@ public class vl_tc03  extends Baseclasss {
 		Thread.sleep(5000);
 		
 	    screenShot("src\\test\\resources\\screenshots\\validLogin.png");
+	    lpom =PageFactory.initElements(driver, LoginPage.class);
+	    
 		quit();
 	}
 

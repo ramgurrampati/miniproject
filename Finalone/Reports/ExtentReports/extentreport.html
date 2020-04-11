@@ -36,7 +36,6 @@
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
 						<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
-			<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
 		</ul>
 		<!-- report name -->
@@ -46,7 +45,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Apr 10, 2020 08:14:38 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Apr 11, 2020 10:42:20 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -62,8 +61,6 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
-					<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -77,12 +74,6 @@
 				<ul id='category-toggle' class='dropdown-content'>
 					<li><a href='#'>@TestAutomation</a></li>
 					<li><a href='#'>@TC_01</a></li>
-					<li><a href='#'>@TC_02</a></li>
-					<li><a href='#'>@TC_03</a></li>
-					<li><a href='#'>@TC_04</a></li>
-					<li><a href='#'>@TC_05</a></li>
-					<li><a href='#'>@TC_06</a></li>
-					<li><a href='#'>@TC_07</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
 				</ul>
@@ -123,10 +114,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> feature(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> feature(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -137,10 +128,10 @@
                     <canvas id='child-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> scenario(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> scenario(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>7</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -151,10 +142,10 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='6.061%'><span class='strong'>2</span> step(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>5</span> step(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='21.212%'>7</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='72.727%'>24</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -172,11 +163,11 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Practice Automation Website</span>
-						<span class='test-time'>Apr 10, 2020 08:14:38 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Apr 11, 2020 10:42:21 PM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class="sr-filters bdd-filters">
@@ -185,550 +176,34 @@
     <a class="btn-floating waves-effect waves-light skip blue" title="skip"><i class='material-icons'>redo</i></a>
     <a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
-<div class='scenario node' test-id='2' status='fail'>
+<div class='scenario node' test-id='2' status='pass'>
     <div class='category-list'>
         <span class='category label'>@TC_01</span>
     </div>
-    <span class='duration right label'>0h 0m 43s+65ms</span>
+    <span class='duration right label'>0h 0m 31s+242ms</span>
     <div class="bdd-test">
-        <div class="scenario-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span> Scenario: Valid Register</div>
+        <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: Valid Register</div>
     </div>
     <ul class='steps'>
         <li test-id='3' class='node given pass' status='pass'>
             <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given the user launch the application in the browser</div>
                 <div class="node-step">passed</div>
         </li>
-        <li test-id='4' class='node when fail' status='fail'>
-            <div class="step-name" title=""><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>When the user open My Accounts Page</div>
-                <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[1]/header/div[2]/nav/ul/li[2]/a"}
-  (Session info: chrome=80.0.3987.163)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-FP4LNQ8H', ip: '192.168.43.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ramgu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54863}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: cd4800233a3e7ceb5f31792a09e0bc32
-*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/header/div[2]/nav/ul/li[2]/a}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy20.click(Unknown Source)
-	at automation.pages.RegisterPage.account(RegisterPage.java:25)
-	at automation.stepdefinition.vr_tc01.the_user_open_My_Accounts_Page(vr_tc01.java:23)
-	at ?.When the user open My Accounts Page(src/main/resources/features/Myapp.Feature:7)
-</textarea>
-        </li>
-        <li test-id='5' class='node then skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then the user fills valid username and Password</div>
-                <div class="node-step">skipped</div>
-        </li>
-        <li test-id='6' class='node and skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>And click on the Register button</div>
-                <div class="node-step">skipped</div>
-        </li>
-        <li test-id='7' class='node then skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then I validate the outcomes</div>
-                <div class="node-step">skipped</div>
-        </li>
-    </ul>
-</div>
-<div class='scenario node' test-id='8' status='fail'>
-    <div class='category-list'>
-        <span class='category label'>@TC_02</span>
-    </div>
-    <span class='duration right label'>0h 0m 16s+70ms</span>
-    <div class="bdd-test">
-        <div class="scenario-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span> Scenario: Invalid Register</div>
-    </div>
-    <ul class='steps'>
-        <li test-id='9' class='node given fail' status='fail'>
-            <div class="step-name" title=""><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>Given the user launches the application in the browser</div>
-                <textarea disabled class="code-block">org.openqa.selenium.SessionNotCreatedException: session not created
-from chrome not reachable
-  (Session info: chrome=80.0.3987.163)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-FP4LNQ8H', ip: '192.168.43.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00E60C83+1707139]
-	Ordinal0 [0x00DC68F1+1075441]
-	Ordinal0 [0x00D3DE72+515698]
-	Ordinal0 [0x00D37CA8+490664]
-	Ordinal0 [0x00D3839B+492443]
-	Ordinal0 [0x00D392F5+496373]
-	Ordinal0 [0x00D34F05+478981]
-	Ordinal0 [0x00D3ECA0+519328]
-	Ordinal0 [0x00CECA67+182887]
-	Ordinal0 [0x00CEBDDD+179677]
-	Ordinal0 [0x00CE9D4B+171339]
-	Ordinal0 [0x00CD1D4A+73034]
-	Ordinal0 [0x00CD2DC0+77248]
-	Ordinal0 [0x00CD2D59+77145]
-	Ordinal0 [0x00DDBB67+1162087]
-	GetHandleVerifier [0x00EFA966+508998]
-	GetHandleVerifier [0x00EFA6A4+508292]
-	GetHandleVerifier [0x00F0F7B7+594583]
-	GetHandleVerifier [0x00EFB1D6+511158]
-	Ordinal0 [0x00DD402C+1130540]
-	Ordinal0 [0x00DDD4CB+1168587]
-	Ordinal0 [0x00DDD633+1168947]
-	Ordinal0 [0x00DF5B35+1268533]
-	BaseThreadInitThunk [0x76526359+25]
-	RtlGetAppContainerNamedObjectPath [0x77E37B74+228]
-	RtlGetAppContainerNamedObjectPath [0x77E37B44+180]
-
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at Baseclass.Baseclasss.launchBrowser(Baseclasss.java:25)
-	at automation.stepdefinition.ir_tc02.the_user_launches_the_application_in_the_browser(ir_tc02.java:20)
-	at ?.Given the user launches the application in the browser(src/main/resources/features/Myapp.Feature:14)
-</textarea>
-        </li>
-        <li test-id='10' class='node when skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>When the user clicks on My Accounts Page</div>
-                <div class="node-step">skipped</div>
-        </li>
-        <li test-id='11' class='node then skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then the user fills Invalid username and Password</div>
-                <div class="node-step">skipped</div>
-        </li>
-        <li test-id='12' class='node then skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then I validate the outcomes of invalid Register</div>
-                <div class="node-step">skipped</div>
-        </li>
-    </ul>
-</div>
-<div class='scenario node' test-id='13' status='fail'>
-    <div class='category-list'>
-        <span class='category label'>@TC_03</span>
-    </div>
-    <span class='duration right label'>0h 1m 3s+75ms</span>
-    <div class="bdd-test">
-        <div class="scenario-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span> Scenario: valid Login</div>
-    </div>
-    <ul class='steps'>
-        <li test-id='14' class='node given pass' status='pass'>
-            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given the user launch the application in browser</div>
+        <li test-id='4' class='node when pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When the user open My Accounts Page</div>
                 <div class="node-step">passed</div>
         </li>
-        <li test-id='15' class='node when fail' status='fail'>
-            <div class="step-name" title=""><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>When the user clicks on My Accounts</div>
-                <textarea disabled class="code-block">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=80.0.3987.163)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-FP4LNQ8H', ip: '192.168.43.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ramgu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55140}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 4353362a0e30dc55ce498d1fde4a55ae
-*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/header/div[2]/nav/ul/li[2]/a}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy20.click(Unknown Source)
-	at automation.pages.LoginPage.account(LoginPage.java:24)
-	at automation.stepdefinition.vl_tc03.the_user_clicks_on_My_Accounts(vl_tc03.java:25)
-	at ?.When the user clicks on My Accounts(src/main/resources/features/Myapp.Feature:22)
-</textarea>
+        <li test-id='5' class='node then pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then the user fills valid username and Password</div>
+                <div class="node-step">passed</div>
         </li>
-        <li test-id='16' class='node when skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>When the user Enters the valid username and password</div>
-                <div class="node-step">skipped</div>
+        <li test-id='6' class='node and pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on the Register button</div>
+                <div class="node-step">passed</div>
         </li>
-        <li test-id='17' class='node and skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>And click on signin button</div>
-                <div class="node-step">skipped</div>
-        </li>
-        <li test-id='18' class='node then skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then I validate the outcomes of valid login</div>
-                <div class="node-step">skipped</div>
-        </li>
-    </ul>
-</div>
-<div class='scenario node' test-id='19' status='fail'>
-    <div class='category-list'>
-        <span class='category label'>@TC_04</span>
-    </div>
-    <span class='duration right label'>0h 0m 15s+708ms</span>
-    <div class="bdd-test">
-        <div class="scenario-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span> Scenario: Invalid Login</div>
-    </div>
-    <ul class='steps'>
-        <li test-id='20' class='node given fail' status='fail'>
-            <div class="step-name" title=""><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>Given the user launch the app in browser</div>
-                <textarea disabled class="code-block">org.openqa.selenium.SessionNotCreatedException: session not created
-from chrome not reachable
-  (Session info: chrome=80.0.3987.163)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-FP4LNQ8H', ip: '192.168.43.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00E60C83+1707139]
-	Ordinal0 [0x00DC68F1+1075441]
-	Ordinal0 [0x00D3DE72+515698]
-	Ordinal0 [0x00D37CA8+490664]
-	Ordinal0 [0x00D3839B+492443]
-	Ordinal0 [0x00D392F5+496373]
-	Ordinal0 [0x00D34F05+478981]
-	Ordinal0 [0x00D3ECA0+519328]
-	Ordinal0 [0x00CECA67+182887]
-	Ordinal0 [0x00CEBDDD+179677]
-	Ordinal0 [0x00CE9D4B+171339]
-	Ordinal0 [0x00CD1D4A+73034]
-	Ordinal0 [0x00CD2DC0+77248]
-	Ordinal0 [0x00CD2D59+77145]
-	Ordinal0 [0x00DDBB67+1162087]
-	GetHandleVerifier [0x00EFA966+508998]
-	GetHandleVerifier [0x00EFA6A4+508292]
-	GetHandleVerifier [0x00F0F7B7+594583]
-	GetHandleVerifier [0x00EFB1D6+511158]
-	Ordinal0 [0x00DD402C+1130540]
-	Ordinal0 [0x00DDD4CB+1168587]
-	Ordinal0 [0x00DDD633+1168947]
-	Ordinal0 [0x00DF5B35+1268533]
-	BaseThreadInitThunk [0x76526359+25]
-	RtlGetAppContainerNamedObjectPath [0x77E37B74+228]
-	RtlGetAppContainerNamedObjectPath [0x77E37B44+180]
-
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at Baseclass.Baseclasss.launchBrowser(Baseclasss.java:25)
-	at automation.stepdefinition.il_tc04.the_user_launch_the_app_in_browser(il_tc04.java:19)
-	at ?.Given the user launch the app in browser(src/main/resources/features/Myapp.Feature:29)
-</textarea>
-        </li>
-        <li test-id='21' class='node when skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>When user clicks on My Accounts</div>
-                <div class="node-step">skipped</div>
-        </li>
-        <li test-id='22' class='node when skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>When the user Enters the Invalid username and password</div>
-                <div class="node-step">skipped</div>
-        </li>
-        <li test-id='23' class='node and skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>And click on the signin button</div>
-                <div class="node-step">skipped</div>
-        </li>
-        <li test-id='24' class='node then skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then I validate the outcomes of invalid login</div>
-                <div class="node-step">skipped</div>
-        </li>
-    </ul>
-</div>
-<div class='scenario node' test-id='25' status='fail'>
-    <div class='category-list'>
-        <span class='category label'>@TC_05</span>
-    </div>
-    <span class='duration right label'>0h 0m 15s+599ms</span>
-    <div class="bdd-test">
-        <div class="scenario-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span> Scenario: Adding to Basket</div>
-    </div>
-    <ul class='steps'>
-        <li test-id='26' class='node given fail' status='fail'>
-            <div class="step-name" title=""><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>Given user launches the application in the browser</div>
-                <textarea disabled class="code-block">org.openqa.selenium.SessionNotCreatedException: session not created
-from chrome not reachable
-  (Session info: chrome=80.0.3987.163)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-FP4LNQ8H', ip: '192.168.43.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00E60C83+1707139]
-	Ordinal0 [0x00DC68F1+1075441]
-	Ordinal0 [0x00D3DE72+515698]
-	Ordinal0 [0x00D37CA8+490664]
-	Ordinal0 [0x00D3839B+492443]
-	Ordinal0 [0x00D392F5+496373]
-	Ordinal0 [0x00D34F05+478981]
-	Ordinal0 [0x00D3ECA0+519328]
-	Ordinal0 [0x00CECA67+182887]
-	Ordinal0 [0x00CEBDDD+179677]
-	Ordinal0 [0x00CE9D4B+171339]
-	Ordinal0 [0x00CD1D4A+73034]
-	Ordinal0 [0x00CD2DC0+77248]
-	Ordinal0 [0x00CD2D59+77145]
-	Ordinal0 [0x00DDBB67+1162087]
-	GetHandleVerifier [0x00EFA966+508998]
-	GetHandleVerifier [0x00EFA6A4+508292]
-	GetHandleVerifier [0x00F0F7B7+594583]
-	GetHandleVerifier [0x00EFB1D6+511158]
-	Ordinal0 [0x00DD402C+1130540]
-	Ordinal0 [0x00DDD4CB+1168587]
-	Ordinal0 [0x00DDD633+1168947]
-	Ordinal0 [0x00DF5B35+1268533]
-	BaseThreadInitThunk [0x76526359+25]
-	RtlGetAppContainerNamedObjectPath [0x77E37B74+228]
-	RtlGetAppContainerNamedObjectPath [0x77E37B44+180]
-
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at Baseclass.Baseclasss.launchBrowser(Baseclasss.java:25)
-	at automation.stepdefinition.addcartTC_05.user_launches_the_application_in_the_browser(addcartTC_05.java:19)
-	at ?.Given user launches the application in the browser(src/main/resources/features/Myapp.Feature:37)
-</textarea>
-        </li>
-        <li test-id='27' class='node when skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>When the  user clicks on Shop</div>
-                <div class="node-step">skipped</div>
-        </li>
-        <li test-id='28' class='node then skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then the user clicks on add to basket</div>
-                <div class="node-step">skipped</div>
-        </li>
-        <li test-id='29' class='node and skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>And user clicks items</div>
-                <div class="node-step">skipped</div>
-        </li>
-        <li test-id='30' class='node then skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then I validate the outcomes of Adding to Basket</div>
-                <div class="node-step">skipped</div>
-        </li>
-    </ul>
-</div>
-<div class='scenario node' test-id='31' status='fail'>
-    <div class='category-list'>
-        <span class='category label'>@TC_06</span>
-    </div>
-    <span class='duration right label'>0h 0m 43s+771ms</span>
-    <div class="bdd-test">
-        <div class="scenario-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span> Scenario: Read more about a book</div>
-    </div>
-    <ul class='steps'>
-        <li test-id='32' class='node given fail' status='fail'>
-            <div class="step-name" title=""><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>Given the user launches the app in browser</div>
-                <textarea disabled class="code-block">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=80.0.3987.163)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-FP4LNQ8H', ip: '192.168.43.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ramgu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55602}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 4a5436c474e5a2663bdf3be6b2149c2e
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:694)
-	at Baseclass.Baseclasss.launchBrowser(Baseclasss.java:41)
-	at automation.stepdefinition.ReadmoreTc_06.the_user_launches_the_app_in_browser(ReadmoreTc_06.java:18)
-	at ?.Given the user launches the app in browser(src/main/resources/features/Myapp.Feature:45)
-</textarea>
-        </li>
-        <li test-id='33' class='node when skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>When user clicks on Shop</div>
-                <div class="node-step">skipped</div>
-        </li>
-        <li test-id='34' class='node then skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then user clicks Read more</div>
-                <div class="node-step">skipped</div>
-        </li>
-        <li test-id='35' class='node then skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then I validate the outcomes of Read more</div>
-                <div class="node-step">skipped</div>
-        </li>
-    </ul>
-</div>
-<div class='scenario node' test-id='36' status='fail'>
-    <div class='category-list'>
-        <span class='category label'>@TC_07</span>
-    </div>
-    <span class='duration right label'>0h 0m 15s+738ms</span>
-    <div class="bdd-test">
-        <div class="scenario-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span> Scenario: To Retrive any data from Cruises table</div>
-    </div>
-    <ul class='steps'>
-        <li test-id='37' class='node given fail' status='fail'>
-            <div class="step-name" title=""><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>Given the user launches the application in browser</div>
-                <textarea disabled class="code-block">org.openqa.selenium.SessionNotCreatedException: session not created
-from chrome not reachable
-  (Session info: chrome=80.0.3987.163)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-FP4LNQ8H', ip: '192.168.43.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00E60C83+1707139]
-	Ordinal0 [0x00DC68F1+1075441]
-	Ordinal0 [0x00D3DE72+515698]
-	Ordinal0 [0x00D37CA8+490664]
-	Ordinal0 [0x00D3839B+492443]
-	Ordinal0 [0x00D392F5+496373]
-	Ordinal0 [0x00D34F05+478981]
-	Ordinal0 [0x00D3ECA0+519328]
-	Ordinal0 [0x00CECA67+182887]
-	Ordinal0 [0x00CEBDDD+179677]
-	Ordinal0 [0x00CE9D4B+171339]
-	Ordinal0 [0x00CD1D4A+73034]
-	Ordinal0 [0x00CD2DC0+77248]
-	Ordinal0 [0x00CD2D59+77145]
-	Ordinal0 [0x00DDBB67+1162087]
-	GetHandleVerifier [0x00EFA966+508998]
-	GetHandleVerifier [0x00EFA6A4+508292]
-	GetHandleVerifier [0x00F0F7B7+594583]
-	GetHandleVerifier [0x00EFB1D6+511158]
-	Ordinal0 [0x00DD402C+1130540]
-	Ordinal0 [0x00DDD4CB+1168587]
-	Ordinal0 [0x00DDD633+1168947]
-	Ordinal0 [0x00DF5B35+1268533]
-	BaseThreadInitThunk [0x76526359+25]
-	RtlGetAppContainerNamedObjectPath [0x77E37B74+228]
-	RtlGetAppContainerNamedObjectPath [0x77E37B44+180]
-
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at Baseclass.Baseclasss.launchBrowser(Baseclasss.java:25)
-	at automation.stepdefinition.DemoTc_07.the_user_launches_the_application_in_browser(DemoTc_07.java:19)
-	at ?.Given the user launches the application in browser(src/main/resources/features/Myapp.Feature:52)
-</textarea>
-        </li>
-        <li test-id='38' class='node then skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then click DemoSite</div>
-                <div class="node-step">skipped</div>
-        </li>
-        <li test-id='39' class='node then skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then user fills all the details</div>
-                <div class="node-step">skipped</div>
-        </li>
-        <li test-id='40' class='node and skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>And Clicks Register button</div>
-                <div class="node-step">skipped</div>
-        </li>
-        <li test-id='41' class='node then skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then I validate the results</div>
-                <div class="node-step">skipped</div>
+        <li test-id='7' class='node then pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then I validate the outcomes</div>
+                <div class="node-step">passed</div>
         </li>
     </ul>
 </div>
@@ -776,13 +251,13 @@ remote stacktrace: Backtrace:
 					<div class='category-heading'>
 						<span class='category-name'>@TestAutomation</span>
 						<span class='category-status right'>
-						<span class='label fail'>1</span>
+						<span class='label pass'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
 							
-							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 						<div class='category-tests'>
@@ -796,9 +271,9 @@ remote stacktrace: Backtrace:
 								</thead>
 								<tbody>
 									<tr>
-										<td>Apr 10, 2020 08:14:38 PM</td>
+										<td>Apr 11, 2020 10:42:21 PM</td>
 										<td class='linked' test-id='1'>Practice Automation Website</td>
-										<td><span class='test-status fail'>fail</span></td>
+										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -809,13 +284,13 @@ remote stacktrace: Backtrace:
 					<div class='category-heading'>
 						<span class='category-name'>@TC_01</span>
 						<span class='category-status right'>
-						<span class='label fail'>1</span>
+						<span class='label pass'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
 							
-							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 						<div class='category-tests'>
@@ -829,207 +304,9 @@ remote stacktrace: Backtrace:
 								</thead>
 								<tbody>
 									<tr>
-										<td>Apr 10, 2020 08:14:38 PM</td>
+										<td>Apr 11, 2020 10:42:21 PM</td>
 										<td class='linked' test-id='2'>Practice Automation Website.Valid Register</td>
-										<td><span class='test-status fail'>fail</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>@TC_02</span>
-						<span class='category-status right'>
-						<span class='label fail'>1</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							
-							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
-							
-						</div>
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Apr 10, 2020 08:15:21 PM</td>
-										<td class='linked' test-id='8'>Practice Automation Website.Invalid Register</td>
-										<td><span class='test-status fail'>fail</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>@TC_03</span>
-						<span class='category-status right'>
-						<span class='label fail'>1</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							
-							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
-							
-						</div>
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Apr 10, 2020 08:15:37 PM</td>
-										<td class='linked' test-id='13'>Practice Automation Website.valid Login</td>
-										<td><span class='test-status fail'>fail</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>@TC_04</span>
-						<span class='category-status right'>
-						<span class='label fail'>1</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							
-							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
-							
-						</div>
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Apr 10, 2020 08:16:40 PM</td>
-										<td class='linked' test-id='19'>Practice Automation Website.Invalid Login</td>
-										<td><span class='test-status fail'>fail</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>@TC_05</span>
-						<span class='category-status right'>
-						<span class='label fail'>1</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							
-							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
-							
-						</div>
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Apr 10, 2020 08:16:56 PM</td>
-										<td class='linked' test-id='25'>Practice Automation Website.Adding to Basket</td>
-										<td><span class='test-status fail'>fail</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>@TC_06</span>
-						<span class='category-status right'>
-						<span class='label fail'>1</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							
-							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
-							
-						</div>
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Apr 10, 2020 08:17:12 PM</td>
-										<td class='linked' test-id='31'>Practice Automation Website.Read more about a book</td>
-										<td><span class='test-status fail'>fail</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>@TC_07</span>
-						<span class='category-status right'>
-						<span class='label fail'>1</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							
-							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
-							
-						</div>
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Apr 10, 2020 08:17:56 PM</td>
-										<td class='linked' test-id='36'>Practice Automation Website.To Retrive any data from Cruises table</td>
-										<td><span class='test-status fail'>fail</span></td>
+										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -1045,484 +322,7 @@ remote stacktrace: Backtrace:
 		</div>
 	</div>
 </div>
-<!-- category view --><div id='exception-view' class='view hide'>
-	<section id='controls'>
-		<div class='controls grey lighten-4'>
-			<!-- search -->
-			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
-				<a href="#" class='search-div'>
-				<i class='material-icons'>search</i> Search
-				</a>
-				<div class='input-field left hide'>
-					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
-				</div>
-			</div>
-			<!-- search -->
-		</div>
-	</section>
-	<div class='subview-left left'>
-		<div class='view-summary'>
-			<ul id='exception-collection' class='exception-collection'>
-				<li class='exception displayed active'>
-					<div class='exception-heading'>
-						<span class='exception-name'>org.openqa.selenium.NoSuchElementException</span>
-						<span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
-					</div>
-					<div class='exception-content hide'>
-						<div class='exception-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Apr 10, 2020 08:15:01 PM</td>
-										<td class='linked' test-id='4'>Practice Automation Website.Valid Register.When the user open My Accounts Page</td>
-										<td>
-											<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[1]/header/div[2]/nav/ul/li[2]/a"}
-  (Session info: chrome=80.0.3987.163)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-FP4LNQ8H', ip: '192.168.43.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ramgu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54863}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: cd4800233a3e7ceb5f31792a09e0bc32
-*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/header/div[2]/nav/ul/li[2]/a}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy20.click(Unknown Source)
-	at automation.pages.RegisterPage.account(RegisterPage.java:25)
-	at automation.stepdefinition.vr_tc01.the_user_open_My_Accounts_Page(vr_tc01.java:23)
-	at ?.When the user open My Accounts Page(src/main/resources/features/Myapp.Feature:7)
-</textarea>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='exception displayed active'>
-					<div class='exception-heading'>
-						<span class='exception-name'>org.openqa.selenium.SessionNotCreatedException</span>
-						<span class='exception-count right'><span class='label red lighten-1 white-text'>4</span></span>
-					</div>
-					<div class='exception-content hide'>
-						<div class='exception-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Apr 10, 2020 08:15:21 PM</td>
-										<td class='linked' test-id='9'>Practice Automation Website.Invalid Register.Given the user launches the application in the browser</td>
-										<td>
-											<textarea disabled class="code-block">org.openqa.selenium.SessionNotCreatedException: session not created
-from chrome not reachable
-  (Session info: chrome=80.0.3987.163)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-FP4LNQ8H', ip: '192.168.43.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00E60C83+1707139]
-	Ordinal0 [0x00DC68F1+1075441]
-	Ordinal0 [0x00D3DE72+515698]
-	Ordinal0 [0x00D37CA8+490664]
-	Ordinal0 [0x00D3839B+492443]
-	Ordinal0 [0x00D392F5+496373]
-	Ordinal0 [0x00D34F05+478981]
-	Ordinal0 [0x00D3ECA0+519328]
-	Ordinal0 [0x00CECA67+182887]
-	Ordinal0 [0x00CEBDDD+179677]
-	Ordinal0 [0x00CE9D4B+171339]
-	Ordinal0 [0x00CD1D4A+73034]
-	Ordinal0 [0x00CD2DC0+77248]
-	Ordinal0 [0x00CD2D59+77145]
-	Ordinal0 [0x00DDBB67+1162087]
-	GetHandleVerifier [0x00EFA966+508998]
-	GetHandleVerifier [0x00EFA6A4+508292]
-	GetHandleVerifier [0x00F0F7B7+594583]
-	GetHandleVerifier [0x00EFB1D6+511158]
-	Ordinal0 [0x00DD402C+1130540]
-	Ordinal0 [0x00DDD4CB+1168587]
-	Ordinal0 [0x00DDD633+1168947]
-	Ordinal0 [0x00DF5B35+1268533]
-	BaseThreadInitThunk [0x76526359+25]
-	RtlGetAppContainerNamedObjectPath [0x77E37B74+228]
-	RtlGetAppContainerNamedObjectPath [0x77E37B44+180]
-
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at Baseclass.Baseclasss.launchBrowser(Baseclasss.java:25)
-	at automation.stepdefinition.ir_tc02.the_user_launches_the_application_in_the_browser(ir_tc02.java:20)
-	at ?.Given the user launches the application in the browser(src/main/resources/features/Myapp.Feature:14)
-</textarea>
-										</td>
-									</tr>
-									<tr>
-										<td>Apr 10, 2020 08:16:40 PM</td>
-										<td class='linked' test-id='20'>Practice Automation Website.Invalid Login.Given the user launch the app in browser</td>
-										<td>
-											<textarea disabled class="code-block">org.openqa.selenium.SessionNotCreatedException: session not created
-from chrome not reachable
-  (Session info: chrome=80.0.3987.163)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-FP4LNQ8H', ip: '192.168.43.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00E60C83+1707139]
-	Ordinal0 [0x00DC68F1+1075441]
-	Ordinal0 [0x00D3DE72+515698]
-	Ordinal0 [0x00D37CA8+490664]
-	Ordinal0 [0x00D3839B+492443]
-	Ordinal0 [0x00D392F5+496373]
-	Ordinal0 [0x00D34F05+478981]
-	Ordinal0 [0x00D3ECA0+519328]
-	Ordinal0 [0x00CECA67+182887]
-	Ordinal0 [0x00CEBDDD+179677]
-	Ordinal0 [0x00CE9D4B+171339]
-	Ordinal0 [0x00CD1D4A+73034]
-	Ordinal0 [0x00CD2DC0+77248]
-	Ordinal0 [0x00CD2D59+77145]
-	Ordinal0 [0x00DDBB67+1162087]
-	GetHandleVerifier [0x00EFA966+508998]
-	GetHandleVerifier [0x00EFA6A4+508292]
-	GetHandleVerifier [0x00F0F7B7+594583]
-	GetHandleVerifier [0x00EFB1D6+511158]
-	Ordinal0 [0x00DD402C+1130540]
-	Ordinal0 [0x00DDD4CB+1168587]
-	Ordinal0 [0x00DDD633+1168947]
-	Ordinal0 [0x00DF5B35+1268533]
-	BaseThreadInitThunk [0x76526359+25]
-	RtlGetAppContainerNamedObjectPath [0x77E37B74+228]
-	RtlGetAppContainerNamedObjectPath [0x77E37B44+180]
-
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at Baseclass.Baseclasss.launchBrowser(Baseclasss.java:25)
-	at automation.stepdefinition.il_tc04.the_user_launch_the_app_in_browser(il_tc04.java:19)
-	at ?.Given the user launch the app in browser(src/main/resources/features/Myapp.Feature:29)
-</textarea>
-										</td>
-									</tr>
-									<tr>
-										<td>Apr 10, 2020 08:16:56 PM</td>
-										<td class='linked' test-id='26'>Practice Automation Website.Adding to Basket.Given user launches the application in the browser</td>
-										<td>
-											<textarea disabled class="code-block">org.openqa.selenium.SessionNotCreatedException: session not created
-from chrome not reachable
-  (Session info: chrome=80.0.3987.163)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-FP4LNQ8H', ip: '192.168.43.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00E60C83+1707139]
-	Ordinal0 [0x00DC68F1+1075441]
-	Ordinal0 [0x00D3DE72+515698]
-	Ordinal0 [0x00D37CA8+490664]
-	Ordinal0 [0x00D3839B+492443]
-	Ordinal0 [0x00D392F5+496373]
-	Ordinal0 [0x00D34F05+478981]
-	Ordinal0 [0x00D3ECA0+519328]
-	Ordinal0 [0x00CECA67+182887]
-	Ordinal0 [0x00CEBDDD+179677]
-	Ordinal0 [0x00CE9D4B+171339]
-	Ordinal0 [0x00CD1D4A+73034]
-	Ordinal0 [0x00CD2DC0+77248]
-	Ordinal0 [0x00CD2D59+77145]
-	Ordinal0 [0x00DDBB67+1162087]
-	GetHandleVerifier [0x00EFA966+508998]
-	GetHandleVerifier [0x00EFA6A4+508292]
-	GetHandleVerifier [0x00F0F7B7+594583]
-	GetHandleVerifier [0x00EFB1D6+511158]
-	Ordinal0 [0x00DD402C+1130540]
-	Ordinal0 [0x00DDD4CB+1168587]
-	Ordinal0 [0x00DDD633+1168947]
-	Ordinal0 [0x00DF5B35+1268533]
-	BaseThreadInitThunk [0x76526359+25]
-	RtlGetAppContainerNamedObjectPath [0x77E37B74+228]
-	RtlGetAppContainerNamedObjectPath [0x77E37B44+180]
-
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at Baseclass.Baseclasss.launchBrowser(Baseclasss.java:25)
-	at automation.stepdefinition.addcartTC_05.user_launches_the_application_in_the_browser(addcartTC_05.java:19)
-	at ?.Given user launches the application in the browser(src/main/resources/features/Myapp.Feature:37)
-</textarea>
-										</td>
-									</tr>
-									<tr>
-										<td>Apr 10, 2020 08:17:56 PM</td>
-										<td class='linked' test-id='37'>Practice Automation Website.To Retrive any data from Cruises table.Given the user launches the application in browser</td>
-										<td>
-											<textarea disabled class="code-block">org.openqa.selenium.SessionNotCreatedException: session not created
-from chrome not reachable
-  (Session info: chrome=80.0.3987.163)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-FP4LNQ8H', ip: '192.168.43.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00E60C83+1707139]
-	Ordinal0 [0x00DC68F1+1075441]
-	Ordinal0 [0x00D3DE72+515698]
-	Ordinal0 [0x00D37CA8+490664]
-	Ordinal0 [0x00D3839B+492443]
-	Ordinal0 [0x00D392F5+496373]
-	Ordinal0 [0x00D34F05+478981]
-	Ordinal0 [0x00D3ECA0+519328]
-	Ordinal0 [0x00CECA67+182887]
-	Ordinal0 [0x00CEBDDD+179677]
-	Ordinal0 [0x00CE9D4B+171339]
-	Ordinal0 [0x00CD1D4A+73034]
-	Ordinal0 [0x00CD2DC0+77248]
-	Ordinal0 [0x00CD2D59+77145]
-	Ordinal0 [0x00DDBB67+1162087]
-	GetHandleVerifier [0x00EFA966+508998]
-	GetHandleVerifier [0x00EFA6A4+508292]
-	GetHandleVerifier [0x00F0F7B7+594583]
-	GetHandleVerifier [0x00EFB1D6+511158]
-	Ordinal0 [0x00DD402C+1130540]
-	Ordinal0 [0x00DDD4CB+1168587]
-	Ordinal0 [0x00DDD633+1168947]
-	Ordinal0 [0x00DF5B35+1268533]
-	BaseThreadInitThunk [0x76526359+25]
-	RtlGetAppContainerNamedObjectPath [0x77E37B74+228]
-	RtlGetAppContainerNamedObjectPath [0x77E37B44+180]
-
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at Baseclass.Baseclasss.launchBrowser(Baseclasss.java:25)
-	at automation.stepdefinition.DemoTc_07.the_user_launches_the_application_in_browser(DemoTc_07.java:19)
-	at ?.Given the user launches the application in browser(src/main/resources/features/Myapp.Feature:52)
-</textarea>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='exception displayed active'>
-					<div class='exception-heading'>
-						<span class='exception-name'>org.openqa.selenium.WebDriverException</span>
-						<span class='exception-count right'><span class='label red lighten-1 white-text'>2</span></span>
-					</div>
-					<div class='exception-content hide'>
-						<div class='exception-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Apr 10, 2020 08:16:26 PM</td>
-										<td class='linked' test-id='15'>Practice Automation Website.valid Login.When the user clicks on My Accounts</td>
-										<td>
-											<textarea disabled class="code-block">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=80.0.3987.163)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-FP4LNQ8H', ip: '192.168.43.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ramgu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55140}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 4353362a0e30dc55ce498d1fde4a55ae
-*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/header/div[2]/nav/ul/li[2]/a}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy20.click(Unknown Source)
-	at automation.pages.LoginPage.account(LoginPage.java:24)
-	at automation.stepdefinition.vl_tc03.the_user_clicks_on_My_Accounts(vl_tc03.java:25)
-	at ?.When the user clicks on My Accounts(src/main/resources/features/Myapp.Feature:22)
-</textarea>
-										</td>
-									</tr>
-									<tr>
-										<td>Apr 10, 2020 08:17:12 PM</td>
-										<td class='linked' test-id='32'>Practice Automation Website.Read more about a book.Given the user launches the app in browser</td>
-										<td>
-											<textarea disabled class="code-block">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=80.0.3987.163)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-FP4LNQ8H', ip: '192.168.43.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ramgu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55602}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 4a5436c474e5a2663bdf3be6b2149c2e
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:694)
-	at Baseclass.Baseclasss.launchBrowser(Baseclasss.java:41)
-	at automation.stepdefinition.ReadmoreTc_06.the_user_launches_the_app_in_browser(ReadmoreTc_06.java:18)
-	at ?.Given the user launches the app in browser(src/main/resources/features/Myapp.Feature:45)
-</textarea>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div class='subview-right left'>
-		<div class='view-summary'>
-			<h5 class='exception-name'></h5>
-		</div>
-	</div>
-</div>
-<!-- exception view --><div id='dashboard-view' class='view hide'>
+<!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
 		<h5>Dashboard</h5>
 
@@ -1536,31 +336,31 @@ Session ID: 4a5436c474e5a2663bdf3be6b2149c2e
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>7</div>
+					<div class='panel-lead'>1</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>33</div>
+					<div class='panel-lead'>5</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Apr 10, 2020 08:14:38 PM</div>
+					<div class='panel-lead'>Apr 11, 2020 10:42:20 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Apr 10, 2020 08:18:11 PM</div>
+			 		<div class='panel-lead'>Apr 11, 2020 10:42:52 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 3m 33s+477ms</div>
+					<div class='panel-lead'>0h 0m 31s+650ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -1577,74 +377,20 @@ Session ID: 4a5436c474e5a2663bdf3be6b2149c2e
 						</tr>
 						<tr>
 							<td>@TestAutomation</td>
-							<td>0</td>
 							<td>1</td>
 							<td>0</td>
+							<td>0</td>
 							<td>
-									0%
+									100%
 							</td>
 						</tr>
 						<tr>
 							<td>@TC_01</td>
-							<td>0</td>
 							<td>1</td>
 							<td>0</td>
-							<td>
-									0%
-							</td>
-						</tr>
-						<tr>
-							<td>@TC_02</td>
-							<td>0</td>
-							<td>1</td>
 							<td>0</td>
 							<td>
-									0%
-							</td>
-						</tr>
-						<tr>
-							<td>@TC_03</td>
-							<td>0</td>
-							<td>1</td>
-							<td>0</td>
-							<td>
-									0%
-							</td>
-						</tr>
-						<tr>
-							<td>@TC_04</td>
-							<td>0</td>
-							<td>1</td>
-							<td>0</td>
-							<td>
-									0%
-							</td>
-						</tr>
-						<tr>
-							<td>@TC_05</td>
-							<td>0</td>
-							<td>1</td>
-							<td>0</td>
-							<td>
-									0%
-							</td>
-						</tr>
-						<tr>
-							<td>@TC_06</td>
-							<td>0</td>
-							<td>1</td>
-							<td>0</td>
-							<td>
-									0%
-							</td>
-						</tr>
-						<tr>
-							<td>@TC_07</td>
-							<td>0</td>
-							<td>1</td>
-							<td>0</td>
-							<td>
-									0%
+									100%
 							</td>
 						</tr>
 					</table>
@@ -1659,38 +405,38 @@ Session ID: 4a5436c474e5a2663bdf3be6b2149c2e
 		<script>
 			var statusGroup = {
                 parentCount: 1,
-				passParent: 0,
-				failParent: 1,
+				passParent: 1,
+				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 1,
-				childCount: 7,
-				passChild: 0,
-				failChild: 7,
+				exceptionsParent: 0,
+				childCount: 1,
+				passChild: 1,
+				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
 				debugChild: 0,
-				exceptionsChild: 7,
-				grandChildCount: 33,
-				passGrandChild: 2,
-				failGrandChild: 7,
+				exceptionsChild: 0,
+				grandChildCount: 5,
+				passGrandChild: 5,
+				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 24,
+				skipGrandChild: 0,
 				infoGrandChild: 0,
 				debugGrandChild: 0,
-				exceptionsGrandChild: 31,
+				exceptionsGrandChild: 0,
 			};
 		</script>
 		<script>
 			var timeline = {
-			        "Practice Automation Website":213.11
+			        "Practice Automation Website":31.242
 			};
 		</script>
 		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/js/extent.js' type='text/javascript'></script>

@@ -19,6 +19,9 @@ public class LoginPage {
 	
 	@FindBy(xpath="/html/body/div[1]/div[2]/div/div/div/div/div[1]/ul/li")
 	public WebElement invalid;
+
+	@FindBy(xpath="/html/body/div[1]/div[2]/div/div/div/div/div[1]/nav/ul/li[6]/a")
+	public WebElement Logout;
 	
 	public void account() {
 		my.click();
@@ -37,8 +40,12 @@ public class LoginPage {
 		String str=invalid.getText();
 		return str;
 	}
+		public void logout() {
+			Logout.click();
+		}
+	}
 
 
 
-}
+
 

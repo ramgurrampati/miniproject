@@ -1,6 +1,7 @@
 package automation.stepdefinition;
 
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 import automation.pages.LoginPage;
@@ -13,6 +14,10 @@ import cucumber.api.java.en.When;
 public class il_tc04  extends Baseclasss{
 	static LoginPage lpom;
 	static String[] data = null;
+	/*public  il_tc04(WebDriver driver)
+	{
+		this.driver=driver;
+			}*/
 	
 	@Given("^the user launch the app in browser$")
 	public void the_user_launch_the_app_in_browser() throws Throwable {
